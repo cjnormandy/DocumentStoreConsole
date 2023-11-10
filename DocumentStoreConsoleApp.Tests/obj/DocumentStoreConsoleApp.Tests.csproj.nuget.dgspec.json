@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.Tests/DocumentStoreConsoleApp.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.csproj",
+        "projectName": "DocumentStoreConsoleApp",
+        "projectPath": "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.csproj",
+        "packagesPath": "/Users/cj/.nuget/packages/",
+        "outputPath": "/Users/cj/Documents/DocumentStoreConsoleApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cj/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.2, )"
+            },
+            "xUnit": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.Tests/DocumentStoreConsoleApp.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.Tests/DocumentStoreConsoleApp.Tests.csproj",
+        "projectName": "DocumentStoreConsoleApp.Tests",
+        "projectPath": "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.Tests/DocumentStoreConsoleApp.Tests.csproj",
+        "packagesPath": "/Users/cj/.nuget/packages/",
+        "outputPath": "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cj/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.csproj": {
+                "projectPath": "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.csproj": {}
+    "/workspaces/DocumentStoreConsole/DocumentStoreConsoleApp.csproj": {}
   },
   "projects": {
-    "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.csproj": {
+    "/workspaces/DocumentStoreConsole/DocumentStoreConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.csproj",
+        "projectUniqueName": "/workspaces/DocumentStoreConsole/DocumentStoreConsoleApp.csproj",
         "projectName": "DocumentStoreConsoleApp",
-        "projectPath": "/Users/cj/Documents/DocumentStoreConsoleApp/DocumentStoreConsoleApp.csproj",
-        "packagesPath": "/Users/cj/.nuget/packages/",
-        "outputPath": "/Users/cj/Documents/DocumentStoreConsoleApp/obj/",
+        "projectPath": "/workspaces/DocumentStoreConsole/DocumentStoreConsoleApp.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/DocumentStoreConsole/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/cj/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }

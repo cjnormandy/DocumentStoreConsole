@@ -39,7 +39,7 @@ public class DocumentStoreTests
     {
         // Arrange
         var store = new DocumentStore();
-        var limit = 10; // Assuming this is your cache limit
+        var limit = 10;
         var docs = new List<Document>();
 
         // Act
@@ -53,7 +53,7 @@ public class DocumentStoreTests
         // Assert
         for (int i = 0; i < 5; i++)
         {
-            // The first five documents should have been evicted from the cache
+            // The first five documents should have been kicked from the cache
             Assert.False(store.IsInCache(docs[i].ID));
         }
 
